@@ -1,0 +1,26 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  /* TODO pin on top */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+}
+
+#search {
+  height: 30px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
