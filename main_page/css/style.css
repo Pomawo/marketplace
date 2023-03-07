@@ -15,12 +15,31 @@ body {
   top: 0;
 }
 
-#search {
+#input_search {
   height: 30px;
   width: 300px;
-  border: 2px solid black;
   margin: 5px;
+  border: 2px solid black;
+  border-left: 0;
   border-radius: 25px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  color: black;
+  font-size: 15px;
+}
+
+#submit-search {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 32px;
+  width: 35px;
+  border: 2px solid black;
+  border-right: 0;
+  position: absolute;
+  top: 5px;
+  right: 309px;
+}
+
+#svg_btn_submit-search:hover {
 }
