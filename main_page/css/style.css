@@ -15,31 +15,37 @@ body {
   top: 0;
 }
 
-#input_search {
-  height: 30px;
-  width: 300px;
-  margin: 5px;
-  border: 2px solid black;
-  border-left: 0;
-  border-radius: 25px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+#div_search-svg {
   background-color: rgba(0, 0, 0, 0.2);
-  font-size: 15px;
-}
 
-#submit-search {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  height: 32px;
-  width: 35px;
   border: 2px solid black;
   border-right: 0;
-  position: absolute;
-  top: 5px;
-  right: 309px;
+
+  border-radius: 25px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  width: 30px;
+  height: 30px;
 }
 
-#svg_btn_submit-search:hover {
+#div_search-svg svg {
+  margin: 11px 0 0 11px;
+}
+
+#input_search {
+  background-color: rgba(0, 0, 0, 0.2);
+
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+
+  border: 2px solid black;
+  border-left: 0;
+
+  height: 34px;
+  width: 300px;
+
+  font-size: 15px;
+  position: relative;
 }
